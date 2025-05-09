@@ -10,7 +10,6 @@ const HomePage = () => {
 
   return (
     <div className='flex flex-col lg:flex-row overflow-x-hidden items-center justify-between space-y-12 pt-28 pb-16 min-h-screen min-w-screen'>
-
       {/* Right Section - Image */}
       <div className='flex items-center justify-center mt-6 md:mt-0 md:w-1/2'>
         <div className='border-4 border-gray-300 p-0.5 rounded-md'>
