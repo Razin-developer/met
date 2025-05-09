@@ -35,7 +35,7 @@ const SectionPage = ({ params }: any) => {
     );
   }
 
-  const sortedStudents = [...foundedItem.students].sort((a, b) => {
+  const sortedStudents = [...(foundedItem.students || [])].sort((a, b) => {
     const getPlacePriority = (place: number | null | undefined) => {
       if (place === 1) return 0;
       if (place === 2) return 1;

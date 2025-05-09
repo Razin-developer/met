@@ -22,7 +22,7 @@ const SectionPage = ({ params }: any) => {
   return (
     <div className="pt-32 px-8 md:px-20">
       <div className="mb-8">
-        <h2 className="text-3xl font-bold text-gray-800 underline">
+        <h2 className="text-2xl font-bold text-gray-800 underline">
           <Link href={`/`}>
             {'HOME'}
           </Link>{' '}
